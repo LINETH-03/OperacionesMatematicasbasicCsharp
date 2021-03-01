@@ -1,0 +1,13 @@
+C:\Users\USER\Desktop\operaciones basicas c#\obj\Debug\netcoreapp3.1\operaciones basicas c#.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\operaciones basicas c#\obj\Debug\netcoreapp3.1\operaciones basicas c#.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\operaciones basicas c#\obj\Debug\netcoreapp3.1\operaciones basicas c#.AssemblyInfo.cs
+C:\Users\USER\Desktop\operaciones basicas c#\obj\Debug\netcoreapp3.1\operaciones basicas c#.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\operaciones basicas c#\bin\Debug\netcoreapp3.1\operaciones basicas c#.exe
+C:\Users\USER\Desktop\operaciones basicas c#\bin\Debug\netcoreapp3.1\operaciones basicas c#.deps.json
+C:\Users\USER\Desktop\operaciones basicas c#\bin\Debug\netcoreapp3.1\operaciones basicas c#.runtimeconfig.json
+C:\Users\USER\Desktop\operaciones basicas c#\bin\Debug\netcoreapp3.1\operaciones basicas c#.runtimeconfig.dev.json
+C:\Users\USER\Desktop\operaciones basicas c#\bin\Debug\netcoreapp3.1\operaciones basicas c#.dll
+C:\Users\USER\Desktop\operaciones basicas c#\bin\Debug\netcoreapp3.1\operaciones basicas c#.pdb
+C:\Users\USER\Desktop\operaciones basicas c#\obj\Debug\netcoreapp3.1\operaciones basicas c#.dll
+C:\Users\USER\Desktop\operaciones basicas c#\obj\Debug\netcoreapp3.1\operaciones basicas c#.pdb
+C:\Users\USER\Desktop\operaciones basicas c#\obj\Debug\netcoreapp3.1\operaciones basicas c#.genruntimeconfig.cache
