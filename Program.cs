@@ -4,33 +4,35 @@ namespace operaciones_basicas_c_
 {
     class Program
     {
-        //variables
+        // Declaración de variables
         static double sumando1=0, sumando2=0, resultado;
         //suma 
         static void suma(){
 
             Console.WriteLine("OPERACIÓN DE LA SUMA"+"\n");
-            Console.WriteLine("Ingrese primer número");
+            Console.WriteLine("Ingrese Primer número");
             sumando1 = double.Parse(Console.ReadLine());
             Console.WriteLine("Ingrese Segundo Número");
             sumando2 = double.Parse(Console.ReadLine());
             resultado = sumando1 + sumando2;
-            Console.WriteLine("el resultado es:  " + resultado);
+            Console.WriteLine("El resultado es:  " + resultado);
             
 
         }
+        //resta
          static void resta(){
 
             Console.WriteLine("OPERACIÓN DE LA RESTA"+"\n");
-            Console.WriteLine("Ingrese el minuendo");
+            Console.WriteLine("Ingrese el Minuendo");
             sumando1 = double.Parse(Console.ReadLine());
-            Console.WriteLine("Ingrese el sustraendo");
+            Console.WriteLine("Ingrese el Sustraendo");
             sumando2 = double.Parse(Console.ReadLine());
             resultado = sumando1 - sumando2;
             Console.WriteLine("La diferencia es:  " + resultado);
             
 
         }
+        //multiplicación
          static void multi(){
 
             Console.WriteLine("OPERACIÓN DE LA MULTIPLICACIÓN"+"\n");
@@ -39,10 +41,11 @@ namespace operaciones_basicas_c_
             Console.WriteLine("Ingrese el Multiplicador");
             sumando2 = double.Parse(Console.ReadLine());
             resultado = sumando1 * sumando2;
-            Console.WriteLine("el producto es:  " + resultado);
+            Console.WriteLine("El producto es:  " + resultado);
             
 
         }
+        //división
          static void divi(){
 
             Console.WriteLine("OPERACIÓN DE LA DIVISIÓN"+"\n");
@@ -50,6 +53,7 @@ namespace operaciones_basicas_c_
             sumando1 = double.Parse(Console.ReadLine());
             Console.WriteLine("Ingrese el Divisor");
             sumando2 = double.Parse(Console.ReadLine());
+            //condicional para la división que no se puede dividir entre 0
             if(sumando2==0){
                 Console.WriteLine("ERROR! El divisor no puede ser 0");
             }
@@ -62,13 +66,15 @@ namespace operaciones_basicas_c_
             
 
         }
+        //modulo de la división o el residuo (lo que sobra de la division)
          static void modul(){
 
-            Console.WriteLine("MODULO DE LA DIVISIÓN"+"\n");
+            Console.WriteLine("MÓDULO DE LA DIVISIÓN"+"\n");
             Console.WriteLine("Ingrese el Dividendo");
             sumando1 = double.Parse(Console.ReadLine());
             Console.WriteLine("Ingrese el Divisor");
             sumando2 = double.Parse(Console.ReadLine());
+            //condicional que no se puede dividir entre 0
             if(sumando2==0){
                 Console.WriteLine("ERROR! El divisor no puede ser 0");
             }
@@ -76,9 +82,6 @@ namespace operaciones_basicas_c_
                 resultado = sumando1 % sumando2;
                 Console.WriteLine("El residuo es:  " + resultado);
             }
-            
-            
-
         }
          
 
@@ -86,19 +89,20 @@ namespace operaciones_basicas_c_
         static void Main(string[] args)
         {
           
-
+            //menu
             while(true){
-                Console.WriteLine("OPERACIONES MATEMÁTICAS BÁSICAS");
                 System.Console.Clear();
-                Console.WriteLine("Ingrese a la operación que desea realizar");
+                Console.WriteLine("-----OPERACIONES MATEMÁTICAS BÁSICAS-----");
+                Console.WriteLine("\n"+"Ingrese a la operación que desea realizar");
                 Console.WriteLine("\n"+"1. Suma");
                 Console.WriteLine("2. Resta");
                 Console.WriteLine("3. Multiplicación");
                 Console.WriteLine("4. División");
-                Console.WriteLine("5. Modulo (residuo de la división");
+                Console.WriteLine("5. Módulo (residuo de la división)");
                 Console.WriteLine("0. salir");
+                //variable para las opciones del menu
                 int option= int.Parse(Console.ReadLine());
-
+                //opciones 
                 if(option==1){
                     System.Console.Clear();
                     suma();
@@ -124,16 +128,14 @@ namespace operaciones_basicas_c_
 
                 }
                 else{
+                    //salida
                 System.Console.Clear();
-                Console.WriteLine("Fin");
-                Console.WriteLine(":::...Lily...:::");
+                Console.WriteLine("Created"+"\n" + ":::...Lily...:::");
+        
                 break;
                     }
                 Console.WriteLine("Presione enter para continuar. ");
                 Console.ReadLine();
-
-                
-
 
             }
 
