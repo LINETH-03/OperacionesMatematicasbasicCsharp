@@ -22,24 +22,24 @@ namespace operaciones_basicas_c_
          static void resta(){
 
             Console.WriteLine("OPERACIÓN DE LA RESTA"+"\n");
-            Console.WriteLine("Ingrese primer número");
+            Console.WriteLine("Ingrese el minuendo");
             sumando1 = double.Parse(Console.ReadLine());
-            Console.WriteLine("Ingrese Segundo Número");
+            Console.WriteLine("Ingrese el sustraendo");
             sumando2 = double.Parse(Console.ReadLine());
             resultado = sumando1 - sumando2;
-            Console.WriteLine("el resultado es:  " + resultado);
+            Console.WriteLine("La diferencia es:  " + resultado);
             
 
         }
          static void multi(){
 
             Console.WriteLine("OPERACIÓN DE LA MULTIPLICACIÓN"+"\n");
-            Console.WriteLine("Ingrese primer número");
+            Console.WriteLine("Ingrese el Multiplicando");
             sumando1 = double.Parse(Console.ReadLine());
-            Console.WriteLine("Ingrese Segundo Número");
+            Console.WriteLine("Ingrese el Multiplicador");
             sumando2 = double.Parse(Console.ReadLine());
             resultado = sumando1 * sumando2;
-            Console.WriteLine("el resultado es:  " + resultado);
+            Console.WriteLine("el producto es:  " + resultado);
             
 
         }
@@ -94,27 +94,32 @@ namespace operaciones_basicas_c_
                 Console.WriteLine("\n"+"1. Suma");
                 Console.WriteLine("2. Resta");
                 Console.WriteLine("3. Multiplicación");
-                Console.WriteLine("4.División");
-                Console.WriteLine("5. Modulo");
+                Console.WriteLine("4. División");
+                Console.WriteLine("5. Modulo (residuo de la división");
                 Console.WriteLine("0. salir");
                 int option= int.Parse(Console.ReadLine());
 
                 if(option==1){
+                    System.Console.Clear();
                     suma();
                 }
                 else if(option==2){
+                    System.Console.Clear();
                     resta();
 
                 }
                 else if(option==3){
+                    System.Console.Clear();
                     multi();
 
                 }
                 else if(option==4){
+                    System.Console.Clear();
                     divi();
 
                 }
                 else if(option==5){
+                    System.Console.Clear();
                     modul();
 
                 }
